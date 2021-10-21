@@ -1,0 +1,8 @@
+version: '3'
+services:
+web:
+  build:
+  ports:
+    - "8040:5000"
+redis:
+  image: "redis:alpine"
